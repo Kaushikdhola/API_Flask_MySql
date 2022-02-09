@@ -23,11 +23,13 @@ Orders table contains following columns:
      1. Index.Html
      2. One_hour.html
    ```
-- Excel_file -->
+- Ouput_UI -->
    ```     
-     orders_data.csv
+     All_Data.JPG
+     One_Hour_Data.JPG
    ```
 - orders.sql
+- orders_data.csv
 
 ## Prerequisites
 - Python

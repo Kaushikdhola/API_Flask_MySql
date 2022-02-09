@@ -60,7 +60,7 @@ def SqlData_to_Excelfile(data):
     df = pd.DataFrame(data)
 
     #convert dataframe to csv file
-    df.to_csv(r'F:\Oneture\Project\Excel_file\orders_data.csv', index=False)
+    df.to_csv(r'./orders_data.csv', index=False)
     Send_mail()
 
 #Excel file send as an attachment to the specified email address
@@ -69,7 +69,7 @@ def Send_mail():
 
     emailfrom = "kdhola1999@gmail.com"
     emailto = "kaushikdhola02@gmail.com"
-    fileToSend = r"F:\Oneture\Project\Excel_file\orders_data.csv"
+    fileToSend = r"./orders_data.csv"
     username = "kdhola1999@gmail.com"
     password = "Kd1234567"
 
